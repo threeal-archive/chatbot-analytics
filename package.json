@@ -9,6 +9,8 @@
     "lint": "eslint --ext .js,.jsx --ignore-path .gitignore ."
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
     "next": "10.0.9",
     "pg-promise": "^10.9.5",
     "react": "17.0.2",
@@ -18,6 +20,7 @@
     "eslint": "^7.22.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.1.0",
+    "eslint-loader": "^4.0.2",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-prettier": "^3.3.1",
