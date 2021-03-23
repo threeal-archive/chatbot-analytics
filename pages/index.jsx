@@ -6,7 +6,7 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <div >
-      <p>Testing</p>
+      <p>Testing Testing</p>
     </div>
   );
 }
