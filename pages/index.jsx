@@ -14,8 +14,6 @@ function Home({ customers }) {
   );
 }
 
-export default Home;
-
 export async function getStaticProps() {
   const result = await db.many("SELECT * FROM customers");
 
@@ -25,3 +23,5 @@ export async function getStaticProps() {
     },
   };
 }
+
+export default Home;
