@@ -1,9 +1,14 @@
 import React from "react";
 
+import { Navigation } from "../components";
 import "../styles/globals.css";
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+function App({ Component, pageProps }) {
+  return (
+    <Navigation>
+      <Component {...pageProps} />
+    </Navigation>
+  );
 }
 
-export default MyApp;
+export default App;
