@@ -9,6 +9,7 @@
     "lint": "eslint --ext .js,.jsx --ignore-path .gitignore ."
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.3",
     "next": "10.0.9",
     "pg-promise": "^10.9.5",
     "react": "17.0.2",
